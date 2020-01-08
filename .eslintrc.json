@@ -1,0 +1,12 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "no-shadow": "off"
+  }
+}
