@@ -1,6 +1,6 @@
 {
   "name": "array-windows",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Array iterator over overlapping subslices of length size",
   "main": "src/index.js",
   "directories": {
