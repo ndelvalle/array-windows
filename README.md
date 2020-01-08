@@ -1,5 +1,8 @@
 # array-windows
 
+[![Build Status](https://travis-ci.com/ndelvalle/array-windows.svg?branch=master)](https://travis-ci.com/ndelvalle/array-windows)
+[![Coverage Status](https://coveralls.io/repos/github/ndelvalle/array-windows/badge.svg?branch=master)](https://coveralls.io/github/ndelvalle/array-windows?branch=master)
+
 Iterator over all contiguous windows (overlapping subslices) of predetermined
 `size` from a given array. The windows overlap. If the window slice is shorter
 than `size`, the iteration ends. `size` must not be bigger than the array length.
