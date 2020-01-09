@@ -14,13 +14,13 @@ function arrayWindows(arr, windowSize, cb) {
   }
 
   for (let i = 0; i < arr.length; i += 1) {
-    const sample = arr.slice(i, i + windowSize + 1)
+    const slice = arr.slice(i, i + windowSize)
 
-    if (windowSize > sample.length) {
+    if (windowSize > slice.length) {
       break
     }
 
-    cb(arr.slice(i, i + windowSize))
+    cb(slice)
   }
 }
 
