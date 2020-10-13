@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Array iterator over overlapping subslices of length size",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "directories": {
     "test": "test"
   },
